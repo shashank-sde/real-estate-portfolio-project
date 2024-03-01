@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background: rgb(135, 198, 199);
+  background: linear-gradient(
+    0deg,
+    rgba(135, 198, 199, 1) 0%,
+    rgba(252, 208, 112, 1) 100%
+  );
+}
+
+.contentbox {
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbox {
+  height: 10vh;
+}
+
+.navtitle {
+  display: inline;
+  width: max-content;
+}
+
+.navcomps,
+ul,
+li,
+h2 {
+  display: inline;
+  width: max-content;
+}
+
+.mynavbar {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.navcomps {
+  position: absolute;
+  right: 34px;
+  align-self: center;
+}
+
+li {
+  margin-left: 20px;
+}
+
+li:hover {
+  font-weight: bold;
+}

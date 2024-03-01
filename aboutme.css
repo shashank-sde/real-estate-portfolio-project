@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.navbox {
+  height: 10vh;
+}
+
+.navtitle {
+  display: inline;
+  width: max-content;
+}
+
+.navcomps,
+ul,
+li,
+h2 {
+  display: inline;
+  width: max-content;
+}
+
+.mynavbar {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.navcomps {
+  position: absolute;
+  right: 34px;
+  align-self: center;
+}
+
+li {
+  margin-left: 20px;
+}
+
+li:hover {
+  font-weight: bold;
+}
+
+.content {
+  background: rgb(225, 144, 180);
+  background: radial-gradient(
+    circle,
+    rgba(225, 144, 180, 1) 0%,
+    rgba(193, 221, 255, 1) 100%
+  );
+  height: 91vh;
+}
+
+.picbox {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.abouttext {
+  width: 50vw;
+  height: 50vh;
+  padding: 5vw;
+  padding-left: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+.picholder {
+  width: 20vw;
+  height: 40vh;
+
+  background-color: paleturquoise;
+  /* align-self: center; */
+  border-radius: 47%;
+}
+
+.profpic {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.secrow {
+  display: flex;
+  width: 100vw;
+  height: 30vh;
+}
+
+.secpic {
+  width: 40vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animpic {
+  width: 40%;
+  height: 100%;
+}
+
+.sectext {
+  padding-left: 10vw;
+}
+
+.tbox {
+  width: 28vw;
+  height: 20vh;
+  height: max-content;
+  padding: 21px;
+  border-radius: 15px;
+  background-color: rgb(247, 210, 179);
+  border: 3px solid rgb(130, 70, 80);
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.553);
+}
+
+button {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+}
+
+button:hover {
+  background-color: yellow;
+  color: black;
+}
